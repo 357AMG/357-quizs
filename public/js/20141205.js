@@ -79,8 +79,6 @@ Quiz.prototype = {
             $("#J-container").html(a);
             var b = $("#J-result"),
                 c = $("#J-comment");
-            ? () :  ? () :  ? () :  ? () :  && (),  ?  :
-
             if (quiz.stat.num <=3) {
             	b.html('弱爆了，你答对了<span class="right-num">' + quiz.stat.passed + "/" + quiz.stat.total + "</span>题，<br>丁香医生鉴定结果：");
             	c.html("<span>谣言病毒 <em>病原体</em></span><br>「我不知道，我什么都不知道~」");
@@ -162,8 +160,8 @@ Quiz.prototype = {
                 ready: function() {
                     var a = {
                         appId: "",
-                        imgUrl: "http://assets.dxycdn.com/app/survey/quiz-game/images/1412/share-logo.png?t=1417590708031",
-                        link: "http://assets.dxycdn.com/app/survey/quiz-game/1412.html?t=1417590708031",
+                        imgUrl: "http://357-quiz.avosapps.com/images/share-logo.png?t=1417590708031",
+                        link: "http://357-quiz.avosapps.com/",
                         desc: "@丁香医生",
                         title: $("title").text()
                     };
@@ -181,8 +179,8 @@ Quiz.prototype = {
                 ready: function() {
                     var a = {
                         appId: "",
-                        imgUrl: "http://assets.dxycdn.com/app/survey/quiz-game/images/1412/share-logo.png?t=1417590708031",
-                        link: "http://assets.dxycdn.com/app/survey/quiz-game/1412.html?t=1417590708031",
+                        imgUrl: "http://357-quiz.avosapps.com/images/share-logo.png?t=1417590708031",
+                        link: "http://357-quiz.avosapps.com/",
                         desc: $("title").text(),
                         title: $("title").text()
                     };
