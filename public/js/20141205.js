@@ -80,24 +80,24 @@ Quiz.prototype = {
             var b = $("#J-result"),
                 c = $("#J-comment");
             if (quiz.stat.num <=3) {
-            	b.html('弱爆了，你答对了<span class="right-num">' + quiz.stat.passed + "/" + quiz.stat.total + "</span>题，<br>丁香医生鉴定结果：");
-            	c.html("<span>谣言病毒 <em>病原体</em></span><br>「我不知道，我什么都不知道~」");
+            	b.html('弱爆了，你答对了<span class="right-num">' + quiz.stat.passed + "/" + quiz.stat.total + "</span>题，<br>首席书记官说：");
+            	c.html("<span>在叁伍柒 <em>白白占位</em></span><br>「我不知道，我什么都不知道~」");
             };
             if (quiz.stat.num <= 6) {
-            	b.html('太 Low 了，你答对了<span class="right-num">' + quiz.stat.passed + "/" + quiz.stat.total + "</span>题，<br>丁香医生鉴定结果：");
-            	c.html("<span>谣言病毒 <em>传播者</em></span><br>「等会儿再看，先转了再说！」");
+            	b.html('太 Low 了，你答对了<span class="right-num">' + quiz.stat.passed + "/" + quiz.stat.total + "</span>题，<br>首席书记官说：");
+            	c.html("<span>在叁伍柒 <em>跟不上</em>聊天的节奏吧</span><br>「等会儿再看，先匿了...」");
             };
             if (quiz.stat.num <= 9) {
-            	b.html('还需继续加油，你答对了<span class="right-num">' + quiz.stat.passed + "/" + quiz.stat.total + "</span>题，<br>丁香医生鉴定结果：");
-            	c.html("<span>谣言病毒 <em>携带者</em></span><br>「其实…我也想做个好人！」");
+            	b.html('还需继续加油，你答对了<span class="right-num">' + quiz.stat.passed + "/" + quiz.stat.total + "</span>题，<br>首席书记官说：");
+            	c.html("<span>在叁伍柒 <em>常常</em>扯淡逗逼吧</span><br>「其实…我就是个逗逼！」");
             };
             if (10 === quiz.stat.num && quiz.stat.hp < 90) {
-            	b.html('干的不错，你答对了<span class="right-num">' + quiz.stat.passed + "/" + quiz.stat.total + "</span>题，<br>丁香医生鉴定结果：");
-            	c.html("<span>谣言病毒 <em>易感者</em></span><br>「我猜...这个应该也是谣言吧？」");
+            	b.html('干的不错，你答对了<span class="right-num">' + quiz.stat.passed + "/" + quiz.stat.total + "</span>题，<br>首席书记官说：");
+            	c.html("<span><em>叁伍柒是你的避风港</em></span><br>「有事没事就泡着~」");
             };
             if (10 === quiz.stat.num && 90 === quiz.stat.hp) {
-            	b.html('棒极了，你答对了<span class="right-num">' + quiz.stat.passed + "/" + quiz.stat.total + "</span>题，<br>丁香医生鉴定结果：");
-            	c.html("<span>谣言病毒 <em>免疫体</em></span><br>「不辨是非的谣言再来约一架！」");
+            	b.html('棒极了，你答对了<span class="right-num">' + quiz.stat.passed + "/" + quiz.stat.total + "</span>题，<br>首席书记官说：");
+            	c.html("<span><em>叁伍柒里的话题都是你吧？</em></span><br>「不过瘾啊不过瘾」");
             };
             if (10 === quiz.stat.num && 90 === quiz.stat.hp) {
             	$(".btn-box").addClass("hide")
@@ -162,10 +162,10 @@ Quiz.prototype = {
                         appId: "",
                         imgUrl: "http://357-quiz.avosapps.com/images/share-logo.png?t=1417772840038",
                         link: "http://357-quiz.avosapps.com/",
-                        desc: "@丁香医生",
+                        desc: "@看丁丁日报",
                         title: $("title").text()
                     };
-                    quiz && quiz.stat.ended === !0 && (a.desc = "经丁香医生鉴定，我对谣言病毒的抵抗力为：" + $("#J-comment em").text()), this.dataLoaded(a)
+                    quiz && quiz.stat.ended === !0 && (a.desc = "首席书记官说，我对叁伍柒的了解为：" + $("#J-comment em").text()), this.dataLoaded(a)
                 },
                 fail: function() {
                     alert("分享失败，请稍候再试。")
@@ -184,7 +184,7 @@ Quiz.prototype = {
                         desc: $("title").text(),
                         title: $("title").text()
                     };
-                    quiz && quiz.stat.ended === !0 && (a.desc = "经丁香医生鉴定，我对谣言病毒的抵抗力为：" + $("#J-comment em").text()), this.dataLoaded(a)
+                    quiz && quiz.stat.ended === !0 && (a.desc = "首席书记官说，我对叁伍柒的了解为：" + $("#J-comment em").text()), this.dataLoaded(a)
                 },
                 fail: function() {
                     alert("分享失败，请稍候再试。")
