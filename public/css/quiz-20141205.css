@@ -1,0 +1,233 @@
+/*! quiz-game 2014-12-03 15:11:48 */
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #4b57c5;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    position: relative;
+    -webkit-tap-highlight-color: transparent
+}
+
+.wraper {
+    padding: 8% 2%;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 640px
+}
+
+.bg-btn {
+    display: block;
+    height: 41px;
+    text-indent: -9999px
+}
+
+.bg-btn:active, .opt:active {
+    -webkit-transform: scale3d(0.98, .98, 1);
+    z-index: 1
+}
+
+.hide {
+    display: none
+}
+
+.start .topic-img {
+    margin: 0 auto;
+    text-align: center
+}
+
+.start .topic-img img {
+    width: 90%;
+    max-width: 528px
+}
+
+.start .start-game {
+    width: 155px;
+    margin: 8% auto 0 auto;
+    opacity: 0;
+    transition: opacity .4s ease;
+    background: transparent url(http://assets.dxycdn.com/app/survey/quiz-game/images/1412/start-btn.png?t=1417590708031) no-repeat;
+    background-size: 155px 41px
+}
+
+.start .start-game.loaded {
+    opacity: 1
+}
+
+.start .follow {
+    text-align: center;
+    margin: 8% auto 0 auto
+}
+
+.start .follow a {
+    color: #ffe65a;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, .5)
+}
+
+.game .hp {
+    background: transparent url(http://assets.dxycdn.com/app/survey/quiz-game/images/1412/heart-mark.png?t=1417590708031) no-repeat;
+    background-size: 17px 15px;
+    padding-left: 24px;
+    line-height: 20px;
+    vertical-align: bottom;
+    color: #ffe65a;
+    font-size: 1.2rem
+}
+
+.game .hp span {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #f5672a
+}
+
+.game .question {
+    padding: 7.5% 4%;
+    background: #fff9c2;
+    color: #f5672a;
+    font-size: 1.3rem;
+    margin: 7% auto 9% auto;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .28)
+}
+
+.game .options li {
+    margin-bottom: 9%;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer
+}
+
+.game .options .opt {
+    height: 50px;
+    display: block;
+    background: #fff9c2;
+    border-radius: 100px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .28);
+    color: #745621;
+    font-size: 1.2rem;
+    padding: 16px 10px 0 16px
+}
+
+.game .options li .mark {
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.9rem;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-top: 9px;
+    top: 2px;
+    left: 0;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .28);
+    font-family: Arial, sans-serif;
+    z-index: 1
+}
+
+.game .options li:nth-child(4n+1) .mark {
+    background: #9940ff
+}
+
+.game .options li:nth-child(4n+2) .mark {
+    background: #27e98c
+}
+
+.game .options li:nth-child(4n+3) .mark {
+    background: #ce5895
+}
+
+.game .options li:nth-child(4n+4) .mark {
+    background: #2795e9
+}
+
+.result p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    word-break: break-all
+}
+
+.result p:first-child {
+    margin-top: 18%
+}
+
+.result .right-num {
+    margin: 0 .2em;
+    color: #ffd201
+}
+
+.result p.comment {
+    margin-top: 15%;
+    background: #fff9c2;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #e76128;
+    text-align: center;
+    padding: 2% 0 6% 0;
+    font-weight: 400
+}
+
+.result p.comment span {
+    font-size: 2.3rem;
+    font-weight: 700
+}
+
+.result p.comment span em {
+    font-size: 3rem
+}
+
+.result .bg-btn {
+    width: 130px
+}
+
+.result .restart {
+    float: left;
+    background: transparent url(http://assets.dxycdn.com/app/survey/quiz-game/images/1412/restart-btn.png?t=1417590708031) no-repeat;
+    background-size: 130px 41px
+}
+
+.result .treat {
+    background-position: 0 -82px;
+    float: right;
+    background: transparent url(http://assets.dxycdn.com/app/survey/quiz-game/images/1412/treat-btn.png?t=1417590708031) no-repeat;
+    background-size: 130px 41px
+}
+
+.result .btn-box {
+    margin: 15% auto 0 auto;
+    overflow: hidden
+}
+
+.result .full-score {
+    text-align: center;
+    font-size: 2rem;
+    margin: 15% auto 0 auto
+}
+
+.result .full-score .full-btn {
+    background: transparent url(http://assets.dxycdn.com/app/survey/quiz-game/images/1412/full-btn.png?t=1417590708031) no-repeat;
+    background-size: 195px 41px;
+    width: 195px;
+    margin: 0 auto
+}
+
+.share-img {
+    background: #4b57c5 url(http://assets.dxycdn.com/app/survey/quiz-game/images/1412/share.png?t=1417590708031) no-repeat;
+    background-size: 75px 33px;
+    width: 75px;
+    height: 33px;
+    position: absolute;
+    top: 2%;
+    right: 1%
+}
+
+
