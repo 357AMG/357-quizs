@@ -162,8 +162,8 @@ Quiz.prototype = {
                 ready: function() {
                     var a = {
                         appId: "",
-                        imgUrl: "http://assets.dxycdn.com/app/survey/quiz-game/images/1412/share-logo.png?t=1417590708031",
-                        link: "http://assets.dxycdn.com/app/survey/quiz-game/1412.html?t=1417590708031",
+                        imgUrl: "http://357-quiz.avosapps.com/images/share-logo.png?t=1417590708031",
+                        link: "http://357-quiz.avosapps.com/",
                         desc: "@丁香医生",
                         title: $("title").text()
                     };
@@ -181,8 +181,8 @@ Quiz.prototype = {
                 ready: function() {
                     var a = {
                         appId: "",
-                        imgUrl: "http://assets.dxycdn.com/app/survey/quiz-game/images/1412/share-logo.png?t=1417590708031",
-                        link: "http://assets.dxycdn.com/app/survey/quiz-game/1412.html?t=1417590708031",
+                        imgUrl: "http://357-quiz.avosapps.com/images/share-logo.png?t=1417590708031",
+                        link: "http://357-quiz.avosapps.com/",
                         desc: $("title").text(),
                         title: $("title").text()
                     };
