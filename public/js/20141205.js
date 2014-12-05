@@ -138,7 +138,7 @@ Quiz.prototype = {
             dataType: "text",
             async: !1,
             success: function(responseDate) {
-                window.sessionStorage && (sessionStorage[key] = responseDate), returnData = responseDate
+                window.sessionStorage && (sessionStorage[localKey] = responseDate), returnData = responseDate
             }
         }), returnData)
     }
