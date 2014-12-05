@@ -52,7 +52,7 @@ body {
     margin: 8% auto 0 auto;
     opacity: 0;
     transition: opacity .4s ease;
-    background: transparent url(http://357-quiz.avosapps.com/images/start-btn.png?t=1417770871684) no-repeat;
+    background: transparent url(http://357-quiz.avosapps.com/images/start-btn.png?t=1417772840038) no-repeat;
     background-size: 155px 41px
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 .game .hp {
-    background: transparent url(http://357-quiz.avosapps.com/images/heart-mark.png?t=1417770871684) no-repeat;
+    background: transparent url(http://357-quiz.avosapps.com/images/heart-mark.png?t=1417772840038) no-repeat;
     background-size: 17px 15px;
     padding-left: 24px;
     line-height: 20px;
@@ -191,14 +191,14 @@ body {
 
 .result .restart {
     float: left;
-    background: transparent url(http://357-quiz.avosapps.com/images/restart-btn.png?t=1417770871684) no-repeat;
+    background: transparent url(http://357-quiz.avosapps.com/images/restart-btn.png?t=1417772840038) no-repeat;
     background-size: 130px 41px
 }
 
 .result .treat {
     background-position: 0 -82px;
     float: right;
-    background: transparent url(http://357-quiz.avosapps.com/images/treat-btn.png?t=1417770871684) no-repeat;
+    background: transparent url(http://357-quiz.avosapps.com/images/treat-btn.png?t=1417772840038) no-repeat;
     background-size: 130px 41px
 }
 
@@ -214,14 +214,14 @@ body {
 }
 
 .result .full-score .full-btn {
-    background: transparent url(http://357-quiz.avosapps.com/images/full-btn.png?t=1417770871684) no-repeat;
+    background: transparent url(http://357-quiz.avosapps.com/images/full-btn.png?t=1417772840038) no-repeat;
     background-size: 195px 41px;
     width: 195px;
     margin: 0 auto
 }
 
 .share-img {
-    background: #4b57c5 url(http://357-quiz.avosapps.com/images/share.png?t=1417770871684) no-repeat;
+    background: #4b57c5 url(http://357-quiz.avosapps.com/images/share.png?t=1417772840038) no-repeat;
     background-size: 75px 33px;
     width: 75px;
     height: 33px;

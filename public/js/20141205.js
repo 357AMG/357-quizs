@@ -143,7 +143,7 @@ Quiz.prototype = {
         }), returnData)
     }
     var appURL = "http://357-quiz.avosapps.com/",
-        timeStamp = "1417770871684",
+        timeStamp = "1417772840038",
         quiz = null,
         qItemIDs = null,
         qItemTemplate = "",
@@ -160,7 +160,7 @@ Quiz.prototype = {
                 ready: function() {
                     var a = {
                         appId: "",
-                        imgUrl: "http://357-quiz.avosapps.com/images/share-logo.png?t=1417770871684",
+                        imgUrl: "http://357-quiz.avosapps.com/images/share-logo.png?t=1417772840038",
                         link: "http://357-quiz.avosapps.com/",
                         desc: "@丁香医生",
                         title: $("title").text()
@@ -179,7 +179,7 @@ Quiz.prototype = {
                 ready: function() {
                     var a = {
                         appId: "",
-                        imgUrl: "http://357-quiz.avosapps.com/images/share-logo.png?t=1417770871684",
+                        imgUrl: "http://357-quiz.avosapps.com/images/share-logo.png?t=1417772840038",
                         link: "http://357-quiz.avosapps.com/",
                         desc: $("title").text(),
                         title: $("title").text()
