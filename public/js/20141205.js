@@ -143,14 +143,14 @@ Quiz.prototype = {
         }), returnData)
     }
     var appURL = "http://357-quiz.avosapps.com/",
-        timeStamp = "1417758375463",
+        timeStamp = "1417770871684",
         quiz = null,
         qItemIDs = null,
         qItemTemplate = "",
         resultTemplate = "",
         quizDataJSON = "";
         qItemTemplate = getRemoteData("questionItem.html", "gamePageHTML"), 
-        quizDataJSON = getRemoteData("json/question-data-20141205.json", "quizDataStr"),
+        quizDataJSON = getRemoteData("json/20141205.json", "quizDataStr"),
         resultTemplate = getRemoteData("result.html", "resultPageHTML"),
         $("#J-startGame").on("click", function() {
         newGame()
@@ -160,7 +160,7 @@ Quiz.prototype = {
                 ready: function() {
                     var a = {
                         appId: "",
-                        imgUrl: "http://357-quiz.avosapps.com/images/share-logo.png?t=1417590708031",
+                        imgUrl: "http://357-quiz.avosapps.com/images/share-logo.png?t=1417770871684",
                         link: "http://357-quiz.avosapps.com/",
                         desc: "@丁香医生",
                         title: $("title").text()
@@ -179,7 +179,7 @@ Quiz.prototype = {
                 ready: function() {
                     var a = {
                         appId: "",
-                        imgUrl: "http://357-quiz.avosapps.com/images/share-logo.png?t=1417590708031",
+                        imgUrl: "http://357-quiz.avosapps.com/images/share-logo.png?t=1417770871684",
                         link: "http://357-quiz.avosapps.com/",
                         desc: $("title").text(),
                         title: $("title").text()
